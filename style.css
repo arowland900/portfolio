@@ -35,6 +35,7 @@ nav {
     font-size: 30px;
     margin-right: 20px;
     text-decoration: none;
+    transition: color 1.0s ease;
     color: black;
 }
 
@@ -42,6 +43,7 @@ nav {
     font-size: 30px;
     margin-right: 20px;
     text-decoration: none;
+    transition: color .2s ease;
     color: blanchedalmond;
 }
 
