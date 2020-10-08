@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: rgb(250, 250, 248);
     /* -moz-osx-font-smoothing: grayscale; */
-  }
+}
+
+/* NAV */
 
 nav {
     width: 100vw;
@@ -15,7 +15,7 @@ nav {
     height: 105px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(144, 144, 238);
+    background-color: rgb(196, 196, 247);
 }
 
 #myName {
@@ -44,3 +44,9 @@ nav {
     color: blanchedalmond;
 }
 
+/* MAIN */
+
+#mainHeader {
+    text-align: center;
+    margin-top: 50px;
+}
