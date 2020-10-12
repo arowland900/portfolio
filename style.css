@@ -24,7 +24,8 @@ nav {
     /* font-weight: 500; */
     margin-left: 20px;
     margin-top: -80px;
-    transition: margin-top 1.5s ease;
+    opacity: 0;
+    /* transition: margin-top 1.5s ease; */
 }
 
 #choices {
@@ -54,11 +55,7 @@ nav {
     margin-top: 50px;
 }
 
-
-
-
 /*  */
-
 
 /* #name {
     font-size: 80px;
@@ -72,9 +69,63 @@ nav {
     transition: width .8s ease;
     transition: margin-top .8s ease;
   } */
-  
+
 /* #name:hover {
     width: 0;
     margin-left: 20px;
     margin-top: -80px;
   } */
+
+/* KEY FRAMES ANIMATIONS */
+
+.fade-in {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
