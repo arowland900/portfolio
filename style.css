@@ -34,6 +34,7 @@ nav {
 
 #choices {
     margin-top: 13px;
+    opacity: 0;
 }
 
 #choices a {
@@ -57,6 +58,7 @@ nav {
 #mainHeader {
     text-align: center;
     margin-top: 50px;
+    opacity: 0;
 }
 
 /*  */
@@ -83,12 +85,22 @@ nav {
 /* KEY FRAMES ANIMATIONS */
 
 .fade-in {
-    animation: fadeIn ease 4s;
-    -webkit-animation: fadeIn ease 4s;
-    -moz-animation: fadeIn ease 4s;
-    -o-animation: fadeIn ease 4s;
-    -ms-animation: fadeIn ease 4s;
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
 }
+
+.fade-in-slow {
+    animation: fadeIn ease 12s;
+    -webkit-animation: fadeIn ease 12s;
+    -moz-animation: fadeIn ease 12s;
+    -o-animation: fadeIn ease 12s;
+    -ms-animation: fadeIn ease 12s;
+}
+
+/* FADE IN REGULAR */
 
 @keyframes fadeIn {
     0% {
@@ -133,3 +145,54 @@ nav {
     100% {
         opacity: 1;
     }
+}
+
+
+
+
+/* FADE IN SLOW */
+
+/* @keyframes fadeInSlow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInSlow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInSlow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInSlow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeInSlow {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */
