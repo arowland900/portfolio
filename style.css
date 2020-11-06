@@ -1,11 +1,18 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+  }
 body {
     margin: 0;
     padding: 0;
+    
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
     /* background-color: rgb(250, 250, 248); */
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
+    display: block;
+    min-height: 100vh;
     /* -moz-osx-font-smoothing: grayscale; */
 }
 
@@ -55,6 +62,8 @@ nav {
 
 /* MAIN */
 
+
+
 #mainHeader {
     text-align: center;
     margin-top: 20px;
@@ -68,7 +77,9 @@ nav {
     display: flex;
     justify-content: space-around;
     opacity: 0;
-    
+}
+#mainBody2, #mainBody3, #mainBody4 {
+    display: none;
 }
 
 #infoHolder {
@@ -80,7 +91,7 @@ nav {
     font-style: italic;
 }
 
-#projectImage {
+#projectImage, #projectImage2, #projectImage3, #projectImage4 {
     height: 450px;
     width: 450px;
     /* border: .2px solid black; */
@@ -101,7 +112,7 @@ nav {
     object-fit: cover;
 }
 
-#description {
+#description, #description2, #description3, #description4 {
     height: 450px;
     width: 450px;
     /* border: .2px solid black; */
@@ -109,13 +120,26 @@ nav {
 
 }
 
+/* #projectImage2, #description2, #projectImage3, #description3, #projectImage4, #description4 {
+    display: none;
+} */
+
 /* FOOTER */
 
-footer {
+#footer {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: absolute;
+    /* width: 100%; */
+    margin: 0 auto;
+    /* background-color: cornflowerblue; */
+    left: 50%;
+    bottom: -30px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
 }
+
 
 #leftArrow, #rightArrow {
     font-size: 50px;
@@ -327,23 +351,35 @@ footer {
     #choices {
         margin-top: -75px;
     }
-    #mainBody, #description {
+    #mainBody, #mainBody2, #mainBody3, #mainBody4 {
         display: block;
-        width: 640px; /* Can be in percentage also. */
-        height: auto;
+        /* margin: 0 auto; */
+
+    } 
+    #description {
+        display: block;
+        width: 50vw; 
+        height: 50vw;
         margin: 0 auto;
-        padding: 10px;
         position: relative;
         
     }
+    #center-cropped {
+        width: 50vw;
+        height: 50vw;
+    }
     #projectImage, #infoHolder {
         display: block;
-        /* width: 640px; Can be in percentage also. */
-        height: auto;
+        width: 50vw;
+        height: 50vw;
         margin: 0 auto;
         /* padding: 10px; */
         position: relative;
     }
+    #projectImage2, #description2, #projectImage3, #description3, #projectImage4, #description4 {
+        display: block;
+    }
+
 }
 
 @media screen and (max-width: 479px) {
@@ -351,8 +387,9 @@ footer {
      
         margin-bottom: 150px;
     }
-    /* #choices {
-        margin-top: -175px;
-    } */
+    #center-cropped, #projectImage, #infoHolder, #description {
+        width: 90vw;
+        height: 90vw;
+    }
 
 }

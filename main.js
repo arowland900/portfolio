@@ -6,7 +6,7 @@ let projectImages = [
     "images/onClick.png",
     "images/tetris.png"]
 let projectHTML = [
-`
+    `
     <h1 class='projTitle'>Oilytics – Software Engineer</h1>             
     <p style="font-size: 20px; text-align: justify; display: inline-block;">
         - Oilytics is an analytics and charting platform built to provide insight into oil market trends. 
@@ -18,8 +18,8 @@ let projectHTML = [
         - <strong>Technology:</strong> React + Flask + PostgreSQL            
     </p>
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="https://www.oilytics.co/">oilytics.co</a></p>
-`, 
-`
+`,
+    `
     <h1 class='projTitle'>Pygg – Project Manager</h1>             
     <p style="font-size: 20px; text-align: justify; display: inline-block;">
         - As a Lead Instructor of General Assembly's 
@@ -33,8 +33,8 @@ let projectHTML = [
         - <strong>Technology:</strong> Django + PostgreSQL            
     </p>
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
-`, 
-`
+`,
+    `
     <h1 class='projTitle'>OnClick Health – Consultant</h1>             
     <p style="font-size: 20px; text-align: justify; display: inline-block;">
         - OnClick Health is a post-discharge patient management system.  
@@ -46,8 +46,8 @@ let projectHTML = [
         - <strong>Technology:</strong> GoDaddy Website Builder + MongoDB           
     </p>
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="https://onclickhealth.com/">onclickhealth.com</a></p>
-`, 
-`
+`,
+    `
     <h1 class='projTitle'>Tetris – Project Manager</h1>             
     <p style="font-size: 20px; text-align: justify; display: inline-block;">
         - As a Lead Instructor of General Assembly's 
@@ -71,7 +71,7 @@ let mainHeader = document.querySelector('#mainHeader');
 let mainBody = document.querySelector('#mainBody');
 let pImg = document.getElementById('projectImage')
 let desc = document.getElementById('description')
-let footer = document.querySelector('footer')
+let footer = document.querySelector('#footer')
 
 
 
@@ -126,4 +126,14 @@ function pageLoaded() {
         }, 2000);
 
     }, 1500);
+
+    // fade in footer
+    setTimeout(() => {
+        footer.classList.add("fade-in")
+
+        setTimeout(() => {
+            footer.style.opacity = 1
+        }, 2500);
+
+    }, 2000);
 }
