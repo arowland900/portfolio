@@ -1,14 +1,27 @@
 //VARIABLES
 let currentProject = 0
 let projectImages = [
-    "images/pygg.png",
     "images/oilytics.png",
+    "images/pygg.png",
     "images/onClick.png",
     "images/tetris.png"]
 let projectHTML = [
 `
-    <h1 class='projTitle'>Pygg – Project Manager</h1>             
+    <h1 class='projTitle'>Oilytics – Software Engineer</h1>             
+    <p style="font-size: 20px; text-align: justify; display: inline-block;">
+        - Oilytics is an analytics and charting platform built to provide insight into oil market trends. 
+        As a Software Engineer on the Oilytics team, I worked closely with the lead developer to 
+        build features from start to finish.  My focus was directed primarily toward writing front-end 
+        code, utilizing React & Redux.                 
+    </p>
     <p style="font-size: 20px;">
+        - <strong>Technology:</strong> React + Flask + PostgreSQL            
+    </p>
+    <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="https://www.oilytics.co/">oilytics.co</a></p>
+`, 
+`
+    <h1 class='projTitle'>Pygg – Project Manager</h1>             
+    <p style="font-size: 20px; text-align: justify; display: inline-block;">
         - As a Lead Instructor of General Assembly's 
         <i>Software Engineering Immersive</i> course, 
         I oversee the production of all student projects
@@ -22,28 +35,21 @@ let projectHTML = [
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
 `, 
 `
-    <h1 class='projTitle'>Oilytics – Software Engineer</h1>             
-    <p style="font-size: 20px;">
-        - Information about Oilytics                 
+    <h1 class='projTitle'>OnClick Health – Consultant</h1>             
+    <p style="font-size: 20px; text-align: justify; display: inline-block;">
+        - OnClick Health is a post-discharge patient management system.  
+        As a technical consultant, I oversaw the development of the public facing 
+        website, and guided the direction of initial technical choices within the company, 
+        ranging from database infrastructure to API implementation & data security.                 
     </p>
     <p style="font-size: 20px;">
-        - <strong>Technology:</strong> React + Flask + PostgreSQL            
+        - <strong>Technology:</strong> GoDaddy Website Builder + MongoDB           
     </p>
-    <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
-`, 
-`
-    <h1 class='projTitle'>OnClick – Consultant</h1>             
-    <p style="font-size: 20px;">
-        - Information about OnClick                 
-    </p>
-    <p style="font-size: 20px;">
-        - <strong>Technology:</strong> GoDaddy Website Builder           
-    </p>
-    <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
+    <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="https://onclickhealth.com/">onclickhealth.com</a></p>
 `, 
 `
     <h1 class='projTitle'>Tetris – Project Manager</h1>             
-    <p style="font-size: 20px;">
+    <p style="font-size: 20px; text-align: justify; display: inline-block;">
         - As a Lead Instructor of General Assembly's 
         <i>Software Engineering Immersive</i> course, 
         I oversee the production of all student projects
@@ -54,7 +60,7 @@ let projectHTML = [
     <p style="font-size: 20px;">
         - <strong>Technology:</strong> HTML + CSS + JavaScript            
     </p>
-    <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
+    <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="https://irritas.github.io/tetris/">irritas.github.io/tetris</a></p>
 `
 ]
 
