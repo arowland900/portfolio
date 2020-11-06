@@ -317,3 +317,14 @@ footer {
         opacity: 1;
     }
 } */
+
+@media screen and (max-width: 977px) {
+    nav { 
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #choices {
+        margin-top: -75px;
+    }
+}
