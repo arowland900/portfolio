@@ -327,4 +327,32 @@ footer {
     #choices {
         margin-top: -75px;
     }
+    #mainBody, #description {
+        display: block;
+        width: 640px; /* Can be in percentage also. */
+        height: auto;
+        margin: 0 auto;
+        padding: 10px;
+        position: relative;
+        
+    }
+    #projectImage, #infoHolder {
+        display: block;
+        /* width: 640px; Can be in percentage also. */
+        height: auto;
+        margin: 0 auto;
+        /* padding: 10px; */
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    nav { 
+     
+        margin-bottom: 150px;
+    }
+    /* #choices {
+        margin-top: -175px;
+    } */
+
 }
