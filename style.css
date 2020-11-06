@@ -63,24 +63,36 @@ nav {
 
 /*  */
 
-/* #name {
-    font-size: 80px;
-    font-style: italic;
-    list-style: none;
-    letter-spacing: 1px;
-    color: #444;
-    text-align: center;
-    white-space: nowrap;
-    width: 100%;
-    transition: width .8s ease;
-    transition: margin-top .8s ease;
-  } */
+#mainBody {
+    display: flex;
+    justify-content: space-around;
+    opacity: 0;
+}
 
-/* #name:hover {
-    width: 0;
-    margin-left: 20px;
-    margin-top: -80px;
-  } */
+#projectImage {
+    height: 450px;
+    width: 450px;
+    border: 2px solid tomato;
+    object-fit: cover;
+    /* background: url(images/pygg.png) 50% 50% no-repeat; */
+    /* 50% 50% centers image in div */
+    
+}
+
+#center-cropped {
+    /* background: #eee url(http://www.google.co.cr/logos/classicplus.png) center center; */
+    width: 450px;
+    height: 450px;
+    /* border: 0.5px solid rgba(255, 127, 80, .1); */
+    /* text-indent: -9999px; */
+    object-fit: cover;
+}
+
+#description {
+    height: 450px;
+    width: 450px;
+    border: 2px solid tomato;
+}
 
 /* KEY FRAMES ANIMATIONS */
 
@@ -146,9 +158,6 @@ nav {
         opacity: 1;
     }
 }
-
-
-
 
 /* FADE IN SLOW */
 
