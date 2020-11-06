@@ -131,6 +131,12 @@ footer {
     cursor: pointer;
 }
 
+.appLink {
+    text-decoration: none;
+    /* transition: color 1.0s ease; */
+    color: rgb(255, 255, 255);
+}
+
 /* KEY FRAMES ANIMATIONS */
 
 .fade-in {
