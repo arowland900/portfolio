@@ -1,4 +1,4 @@
-// STATE VARIABLES
+//VARIABLES
 let currentProject = 0
 let projectImages = [
     "images/pygg.png",
@@ -17,7 +17,7 @@ let projectHTML = [
         by two of my former students in the Spring of 2020.                  
     </p>
     <p style="font-size: 20px;">
-        - <strong>Tech Stack:</strong> Django + PostgreSQL            
+        - <strong>Technology:</strong> Django + PostgreSQL            
     </p>
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
 `, 
@@ -27,7 +27,7 @@ let projectHTML = [
         - Information about Oilytics                 
     </p>
     <p style="font-size: 20px;">
-        - <strong>Tech Stack:</strong> React + Flask + PostgreSQL            
+        - <strong>Technology:</strong> React + Flask + PostgreSQL            
     </p>
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
 `, 
@@ -37,7 +37,7 @@ let projectHTML = [
         - Information about OnClick                 
     </p>
     <p style="font-size: 20px;">
-        - <strong>Tech Stack:</strong> GoDaddy Website Builder           
+        - <strong>Technology:</strong> GoDaddy Website Builder           
     </p>
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
 `, 
@@ -52,7 +52,7 @@ let projectHTML = [
         by one of my former students in the Summer of 2020.                  
     </p>
     <p style="font-size: 20px;">
-        - <strong>Tech Stack:</strong> HTML + CSS + JavaScript            
+        - <strong>Technology:</strong> HTML + CSS + JavaScript            
     </p>
     <p style="font-size: 20px;">- <strong> Link: </strong><a class="appLink"  href="http://pygg-app.herokuapp.com/">pygg-app.herokuapp.com</a></p>
 `

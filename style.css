@@ -49,7 +49,7 @@ nav {
     font-size: 30px;
     margin-right: 20px;
     text-decoration: none;
-    transition: color .2s ease;
+    transition: color .3s ease;
     color: rgb(118, 111, 255);
 }
 
@@ -116,25 +116,36 @@ footer {
     justify-content: center;
 }
 
-#leftArrow {
+#leftArrow, #rightArrow {
     font-size: 50px;
+    transition: color 1.0s ease;
     color: white;
 }
-#leftArrow:hover {
+#leftArrow:hover, #rightArrow:hover {
     cursor: pointer;
+    transition: color .3s ease;
+    color: rgb(118, 111, 255);
 }
-#rightArrow {
+/* #rightArrow {
     font-size: 50px;
+    transition: color 1.0s ease;
     color: white;
 }
 #rightArrow:hover {
     cursor: pointer;
-}
+    transition: color .2s ease;
+    color: rgb(118, 111, 255);
+} */
 
 .appLink {
     text-decoration: none;
-    /* transition: color 1.0s ease; */
+    transition: color 1.0s ease;
     color: rgb(255, 255, 255);
+}
+.appLink:hover {
+    cursor: pointer;
+    transition: color .3s ease;
+    color: rgb(118, 111, 255);
 }
 
 /* KEY FRAMES ANIMATIONS */
